@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .image-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+
+        /* Additional styling for better visibility */
+        .image-overlay h2 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        /* Optional: Adjust the background overlay */
+        .overlay-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for transparency */
+        }
+    </style>
+</head>
+<body>
+
+<div class="image-container">
+    <img src="computer-information-research-scientists-1.jpg" alt="Your Image">
+    <div class="overlay-background"></div>
+    <div class="image-overlay">
+        <h2>Your Text Here</h2>
+        <p>Additional description if needed</p>
+    </div>
+</div>
+
+</body>
+</html>
